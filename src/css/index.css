@@ -112,6 +112,11 @@ header {
 	padding: 8px 22px;
 	cursor: pointer;
 	margin-right: 1%;
+	transition: background-color 0.5s;
+}
+
+.containerBotoes--inscreva:hover {
+	background-color: #F7A6A6;
 }
 
 button.containerBotoes--detalhes {
@@ -124,7 +129,13 @@ button.containerBotoes--detalhes {
 	border-radius: 5px;
 	padding: 8px 22px;
 	cursor: pointer;
+	transition: background-color 0.5s;
 }
+
+.containerBotoes--detalhes:hover {
+	background-color: #F7A6A6;
+}
+
 /*css do conheça*/
 .container2 {
 	display: flex;
@@ -210,6 +221,11 @@ button.containerBotoes--detalhes {
 	padding: 8px 22px;
 	cursor: pointer;
 	margin-right: 1%;
+	transition: background-color 0.5s;
+}
+
+.container3 button:hover {
+	background-color: #F7A6A6;
 }
 
 .container3 img {
@@ -300,6 +316,18 @@ footer {
 	.headerBotao {
 		margin-top: 16px;
 	}
+
+	.container2--esquerda img {
+		width: 200px;
+	}
+
+	.container2--direita img {
+		width: 40px;
+	}
+
+	.container3 img {
+		width: 200px;
+	}
 }
 
 @media only screen and (max-width: 768px) {
@@ -318,6 +346,32 @@ footer {
 	
 	.headerBotao {
 		margin-top: 16px;
+	}
+
+	.container1 {
+		background-position: 70%;
+	}
+
+	.container2 {
+		display: inline;
+		padding: 0;
+		margin: 0 2%;
+	}
+
+	.container2--esquerda, .container2--direita {
+		margin: 0 0 2% 2%;
+	}
+
+	.container2--esquerda img {
+		display: none;
+	}
+
+	.container3 {
+		margin: 0 0 0 2%;
+	}
+
+	.container3 img {
+		margin-right: 5%; 
 	}
 
 	.footer {
@@ -367,6 +421,50 @@ footer {
 	
 	.headerBotao {
 		margin-top: 16px;
+	}
+
+	.container1 {
+		background: #201D38;
+		padding: 0;
+	}
+
+	.container1--textos {
+		width: 100%;
+		text-align: center;
+		padding: 0 5%;
+	}
+
+	.containerBotoes {
+		margin-top: 2%;
+		font-size: 12px;
+		padding: 0 5%;
+		display: flex;
+		justify-content: center;
+	}
+
+	.container2--esquerda p {
+		padding: 0 5%;
+	}
+
+	.container2 h1, .container2--direita {
+		padding-left: 5%;
+	}
+
+	.container2--textos p {
+		padding-right: 5%;
+	}
+
+	.container2--bloco img {
+		margin-right: 1%;
+	}
+
+	.container3 {
+		margin: 5% 0 10% 0;
+		padding: 0 5%;
+	}
+
+	.container3 img {
+		display: none;
 	}
 
 	.footer {
