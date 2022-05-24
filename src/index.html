@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link href="./reset.css" rel="stylesheet">
-    <link href="./index.css" rel="stylesheet">
+    <link href="./css/reset.css" rel="stylesheet">
+    <link href="./css/index.css" rel="stylesheet">
     <title>HOME</title>
 </head>
 <body>
@@ -47,13 +48,41 @@
 
         <!--conheca app-->
         <div class="container2">
-            
+            <div class="container2--esquerda">
+                <h1>Conheça o app</h1>
+                <p> Desenvolvimento em um ritmo que você nunca viu!</p>
+                <img src="./images/coding.png" alt="ilustração de uma pessoa digitando código num monitor gigante">
+            </div>
+
+            <div class="container2--direita">
+                <div class="container2--bloco bloco1">
+                    <img src="./images/1.png" alt="número 1">
+                    <div class="container2--textos">
+                        <h4>Aumento da Produtividade</h4>
+                        <p>Torna o desenvolvimento muito mais ágil, pois evita as incontáveis inspeções de mídia.</p>
+                    </div>
+                </div>
+                <div class="container2--bloco bloco2">
+                    <img src="./images/2.png" alt="número 2">
+                    <div class="container2--textos">
+                        <h4>Facilidade de Interação</h4>
+                        <p>Um aplicativo intuitivo voltado tanto para iniciantes quanto aos programadores mais experientes.</p>
+                    </div>
+                </div>    
+                <div class="container2--bloco bloco3">
+                    <img src="./images/3.png" alt="número 3">
+                    <div class="container2--textos">
+                        <h4>Se Adapta a Você</h4>
+                        <p>Com três planos diferentes, o app Frontenders se adapta a você e às suas necessidades, visto que conta com funções diversas.</p>
+                    </div>
+                </div>             
+            </div>
         </div>
 
         <!--quer aproveitar - cta-->
         <div class="container3">
             <div class="container3--texto">
-                <h2>Quer aproveitar?</h2>
+                <h1>Quer aproveitar?</h1>
                 <p>Faça seu cadastro e se inscreva na lista de espera para adquirir o nosso serviço!</p>
                 <button>QUERO ME INSCREVER</button>
             </div>
@@ -67,19 +96,19 @@
         <div class="footer">
             <div class="footerNavegacao">
                 <div class="footerConheca">
-                    <h4>Conheça o serviço</h4>
+                    <h6>Conheça o serviço</h6>
                     <a href="#">Sobre</a>
                 </div>
                 <div class="footerInscreva">
-                    <h4>Inscreva-se</h4>
+                    <h6>Inscreva-se</h6>
                     <a href="#">Formulário</a>
                 </div>
                 <div class="footerContato">
-                    <h4>Contato</h4>
+                    <h6>Contato</h6>
                     <a href="#">Conheça o time</a>
                 </div>
             </div>
-            <hr class="solid">
+            <hr class="align-self-center solid">
             <div class="footerLogoLinks">
                 <img class="footerLogo" src="./images/logo_white.png" alt="logo Frontenders">
                 <div class="footerLinks">
@@ -90,5 +119,8 @@
             </div>
         </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
