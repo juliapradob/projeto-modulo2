@@ -48,7 +48,7 @@ header {
 
 /*css do container1/banner*/
 .container1 {
-	background: url(./images/banner.png);
+	background: url(../images/banner.png);
 	background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover;
@@ -125,6 +125,97 @@ button.containerBotoes--detalhes {
 	padding: 8px 22px;
 	cursor: pointer;
 }
+/*css do conheça*/
+.container2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0 0 0 5%;
+	margin-bottom: 5%;
+	gap: 5%;
+}
+
+.container2 p {
+	font-family: 'Inter', sans-serif;
+	color: black;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 1.5;	
+	margin-bottom: 1%;
+}
+
+.container2 h4 {
+	font-family: 'Inter', sans-serif;
+	color: black;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 1.5;	
+	margin-bottom: 0.5%;
+}
+
+.container2 h1 {
+	font-family: 'Inter', sans-serif;
+	color: black;
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 1.5;
+}
+
+.container2--esquerda img {
+	margin-top: 3%;
+	width: 300px;
+}
+
+.container2--bloco {
+	display: flex;
+	align-items: center;
+	gap: 2%;
+	margin-bottom: 2%;
+}
+
+/*css do quer aproveitar - cta*/
+.container3 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 2%;
+	margin-bottom: 2%;
+}
+
+.container3 h1 {
+	font-family: 'Inter', sans-serif;
+	color: black;
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 1.5;
+}
+
+.container3 p {
+	font-family: 'Inter', sans-serif;
+	color: black;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 1.5;	
+	margin-bottom: 2%;
+}
+
+.container3 button {
+	font-family: 'Inter', sans-serif;
+	color: black;
+	font-weight: 600;
+	font-size: 14px;
+	border: 0px solid transparent;
+	background-color: #F8C7C6;
+	border-radius: 5px;
+	padding: 8px 22px;
+	cursor: pointer;
+	margin-right: 1%;
+}
+
+.container3 img {
+	margin-top: 3%;
+	width: 300px;
+}
 
 /*css do footer*/
 footer {
@@ -152,7 +243,7 @@ footer {
 	font-weight: 200;
 }
 
-.footerNavegacao h4 {
+.footerNavegacao h6 {
 	font-weight: 500;
 }
 
