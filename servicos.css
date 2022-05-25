@@ -59,8 +59,27 @@ header {
 	text-align: center;
 }
 
-h4 {
+.cardsPlanos h4 {
     color: #212121;
+}
+
+.cardsBeneficios p {
+    color: #616161;
+}
+
+.cardsPlanos p {
+    color: #757575;
+}
+
+#tituloPlanos {
+    color: #757575;
+}
+#escolhaPlanos {
+    color: #212121;
+}
+
+.preco {
+    color: #6BBECD;
 }
 
 footer {
