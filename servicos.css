@@ -45,6 +45,15 @@ header {
 	background-color: #F7A6A6;
 }
 
+.slogan {
+	display: inline-block;
+	text-align: center;	
+}
+
+.cardsBeneficios {
+	text-align: center;
+}
+
 
 
 footer {
