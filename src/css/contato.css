@@ -90,6 +90,14 @@ header {
 	height: 179px;
 }
 
+.container-perfil h1{
+	position: absolute;
+	top: 150px;
+	font-size: 40px;
+	left: 700px;
+	color: rgb(2, 2, 129) solid 10px;
+}
+
 .container.perfil p{
 	position: absolute;
 	top: 155px;
