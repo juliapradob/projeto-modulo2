@@ -47,7 +47,12 @@ header {
 
 .slogan {
 	display: inline-block;
-	text-align: center;	
+	text-align: center;
+    color:#212121;
+}
+
+#descricao {
+    color: #757575;
 }
 
 .cardsBeneficios {
