@@ -98,6 +98,24 @@ header {
 	height: 179px;
 }
 
+.gitIcone{
+	position: absolute;
+	margin-left: 50px;
+	top: 500px;
+}
+
+.linkedinIcone{
+	position: absolute;
+	margin-left: -20px;
+	top: 500px;
+}
+
+.email{
+	position: absolute;
+	top: 500px;
+	margin-left: -90px;
+}
+
 .ju{
 	position: absolute;
 	top: 155px;
