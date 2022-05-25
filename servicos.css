@@ -59,7 +59,9 @@ header {
 	text-align: center;
 }
 
-
+h4 {
+    color: #212121;
+}
 
 footer {
 	font-family: 'Inter', sans-serif;
