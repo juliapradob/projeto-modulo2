@@ -1,0 +1,359 @@
+/*css do header*/
+header {
+	font-family: 'Inter', sans-serif;
+	color: black;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 24px 120px;
+}
+
+.header img {
+	width: 174px;
+	cursor: pointer;
+}
+
+.headerMenu a {
+	text-decoration: none;
+	color: black;
+	font-weight: 400;
+	font-size: 14px;
+	margin: 0 15px;
+}
+
+.headerMenu a:hover {
+	font-weight: 700;
+	color: #3F56A1;
+}
+
+.headerBotao {
+	font-family: 'Inter', sans-serif;
+	color: black;
+	font-weight: 600;
+	font-size: 14px;
+	border: 0px solid transparent;
+	background-color: #F8C7C6;
+	border-radius: 5px;
+	padding: 8px 22px;
+	cursor: pointer;
+	transition: background-color 0.5s;
+}
+
+.headerBotao:hover {
+	background-color: #F7A6A6;
+}
+
+/*css do container1-hero*/
+.container1 {
+	margin: 5% 0;
+}
+
+.container1 h1 {
+	font-family: 'Inter', sans-serif;
+	color: black;
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 1.5;
+    text-align: center;
+}
+
+.container1 h6 {
+	font-family: 'Inter', sans-serif;
+	color: #757575;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 1.5;	
+	margin-bottom: 1%;
+    text-align: center;
+}
+
+.container1--itens {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10% 10%;
+    padding: 0 10%;
+    margin: 3% 0 4%;
+}
+
+.container1--itens h4 {
+    font-family: 'Inter', sans-serif;
+	color: black;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 1.5;
+    text-align: center;
+}
+
+.container1--itens p {
+    font-family: 'Inter', sans-serif;
+	color: black;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 1.5;
+    text-align: center;
+}
+
+.container1 h3 {
+	font-family: 'Inter', sans-serif;
+	color: black;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.2;
+    text-align: center;
+    padding: 0 20%;
+}
+
+/*css dos preços-container2*/
+.container2 h6 {
+	font-family: 'Inter', sans-serif;
+	color: #757575;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 1.5;	
+    text-align: center;
+}
+
+.container2 h1 {
+    font-family: 'Inter', sans-serif;
+	color: black;
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 1.5;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.container2--precos {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: center;
+    gap: 10%;
+    margin-bottom: 5%;
+}
+
+.container2--preco h3 {
+    font-family: 'Inter', sans-serif;
+	color: black;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 1.5;
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+.container2--preco a {
+    text-decoration: none;
+}
+
+.container2--preco p {
+    font-family: 'Inter', sans-serif;
+	color: black;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 1.5;
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+.container2--preco h4 {
+    font-family: 'Inter', sans-serif;
+	color:#6BBECD;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 1.5;
+    text-align: center;
+    transition-duration: color 0.5s;
+}
+
+.container2--preco h4:hover {
+    color: #347b87;
+}
+
+/*css do footer*/
+footer {
+	font-family: 'Inter', sans-serif;
+	color: white;
+	background-color: #201D38;
+	font-size: 14px;
+}
+
+.footer {
+	display: flex;
+	flex-direction: column;
+	padding: 48px 0px;
+}
+
+.footerNavegacao {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 2%;
+}
+
+.footerNavegacao a {
+	text-decoration: none;
+	color: white;
+	font-weight: 200;
+}
+
+.footerNavegacao h6 {
+	font-weight: 500;
+}
+
+.footerConheca, .footerInscreva, .footerContato {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: flex-start;
+	margin: 0 5%;
+	transition-duration: text-decoration font-weight color 0.5s;
+}
+
+.footerConheca a:hover, .footerInscreva a:hover, .footerContato a:hover {
+	text-decoration: underline;
+	color: #F8C7C6;
+}
+
+.footer hr {
+	width: 60%;
+	margin-bottom: 2%;
+	opacity: 50%;
+}
+
+.footerLogo {
+	width: 174px;
+}
+
+.footerLogoLinks {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	cursor: pointer;
+}
+
+.footerLinks img {
+	padding: 0 4px;
+}
+
+/*media queries de header e footer*/
+@media only screen and (max-width: 1025px) {
+	.header {
+		flex-direction: column;
+		margin: 24px 40px;
+	}
+	
+	.headerMenu {
+		margin-top: 8px;
+	}
+	
+	.headerMenu a {
+		margin: 0 8px;
+	}
+	
+	.headerBotao {
+		margin-top: 16px;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.header {
+		flex-direction: column;
+		margin: 24px 40px;
+	}
+	
+	.headerMenu {
+		margin-top: 8px;
+	}
+	
+	.headerMenu a {
+		margin: 0 8px;
+	}
+	
+	.headerBotao {
+		margin-top: 16px;
+	}
+
+	.footer {
+		flex-direction: row;
+		justify-content: space-around;
+		padding: 24px 0px;
+	}
+
+	.footerNavegacao {
+		flex-direction: column;
+		gap: 10%;
+	}
+
+	.footerConheca a, .footerInscreva a, .footerContato a {
+		margin: 3% 0;
+	}
+	
+	.footerConheca h4, .footerInscreva h4, .footerContato h4{
+		display: none;
+	}
+
+	.footer hr {
+		display: none;
+	}
+
+	.footerLogoLinks {
+		flex-direction: column;
+		justify-content: center;
+		gap: 16px;
+		cursor: pointer;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.header {
+		flex-direction: column;
+		margin: 24px 40px;
+	}
+	
+	.headerMenu {
+		margin-top: 8px;
+	}
+	
+	.headerMenu a {
+		margin: 0 8px;
+	}
+	
+	.headerBotao {
+		margin-top: 16px;
+	}
+
+	.footer {
+		flex-direction: row;
+		justify-content: space-around;
+		padding: 24px 0px;
+	}
+
+	.footerNavegacao {
+		flex-direction: column;
+		justify-content: center;
+		gap: 10%;
+		font-size: 12px;
+	}
+
+	.footerConheca a, .footerInscreva a, .footerContato a {
+		margin: 3% 0 0;
+	}
+	
+	.footerConheca h4, .footerInscreva h4, .footerContato h4{
+		display: none;
+	}
+
+	.footer hr {
+		display: none;
+	}
+
+	.footerLogoLinks {
+		flex-direction: column;
+		justify-content: center;
+		gap: 16px;
+		cursor: pointer;
+	}
+}
