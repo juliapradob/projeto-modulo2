@@ -5,7 +5,7 @@ Responsividade à tempo!
 - Com o app de responsividade Frontenders você aumenta sua produtividade e otimiza seu tempo! A ferramenta foi desenvolvida com o objetivo de auxiliar programadores a desenvolverem sites responsivos de uma maneira mais fácil e ágil, evitando as inúmeras inspeções de mídia e obtendo maior controle na visualização de seus projetos, tudo isso simultaneamente ao desenvolvimento do código.
 
 
-## 📍Conheça o app 💻
+## 📍Conheça a aplicão
 
 - Conheça o app
 Desenvolvimento em um ritmo que você nunca viu!
@@ -21,13 +21,13 @@ Com três planos diferentes, o app Frontenders se adapta a você e às suas nece
 
 ## 📍Recursos utilizados na construção do projeto:
 
-## Soft 💜
+## Soft 💭
 - [x] Miro - Board
 - [x] Servidor do Discord
 - [x] Acompanhamento em Sprint
 - [x] Organização do projeto pelo Figma
 
-## Tech 🎯🧩
+## Tech 🖥️
 - [x] Usamos o framework Bootstrap.
 - [x] Usamos também a API do VIACEP para obter dados referente ao CEP dos usuários que preenche o cadastro em nosso site.
 - [x] Repositório público utilizado com todos os integrantes, para trabalharmos em conjunto no projeto. 
