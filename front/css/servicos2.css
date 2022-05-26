@@ -257,6 +257,10 @@ footer {
 	.headerBotao {
 		margin-top: 16px;
 	}
+
+	.container2--precos {
+		gap: 5%;
+	}
 }
 
 @media only screen and (max-width: 768px) {
@@ -275,6 +279,27 @@ footer {
 	
 	.headerBotao {
 		margin-top: 16px;
+	}
+
+	.container1--itens {
+		display: grid;
+		grid-template-columns: auto auto;
+		gap: 5% 5%;
+		padding: 0 10%;
+		margin: 3% 0 4%;
+	}
+
+	.container1 h3 {
+		margin-top: 20%;
+	}
+
+	.container2--precos {
+		display: block;
+		margin-bottom: 5% auto;
+	}
+
+	.container2--preco {
+		margin-bottom: 5%;
 	}
 
 	.footer {
@@ -324,6 +349,18 @@ footer {
 	
 	.headerBotao {
 		margin-top: 16px;
+	}
+
+	.container1--itens {
+		display: grid;
+		grid-template-columns: auto auto;
+		gap: 10% 10%;
+		padding: 0 10%;
+		margin: 3% 0 4%;
+	}
+	
+	.container1 h3 {
+		margin-top: 40%;
 	}
 
 	.footer {
