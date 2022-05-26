@@ -98,87 +98,35 @@ header {
 	color: rgb(2, 2, 129) solid 10px;
 }
 
-.container.perfil p{
-	position: absolute;
+.container-perfil p{
+	/*position: absolute;
 	top: 155px;
 	left: 850px;
 	width: 231px;
-	height: 179px;
+	height: 179px;*/
+	
+	justify-content: space-between;
 }
 
 .gitIcone{
-	position: absolute;
-	margin-left: 50px;
-	top: 500px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
 }
 
 .linkedinIcone{
-	position: absolute;
-	margin-left: -20px;
-	top: 500px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
 }
 
 .email{
-	position: absolute;
-	top: 500px;
-	margin-left: -90px;
-}
-
-.ju{
-	position: absolute;
-	top: 155px;
-	left: 850px;
-	width: 231px;
-	height: 179px;
-	border-radius: 12px;
-	border: rgb(103, 0, 103) solid 1px;
-	outline: rgb(189, 189, 189) solid 5px;
-	padding: 25px;
-	transition: .3s ease-in;
-	opacity: .8;
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-	background: linear-gradient(180deg, plum 30%, rgb(250, 179, 179));
-}
-
-.camis{
-	position: absolute;
-	top: 450px;
-	left: 850px;
-	width: 231px;
-	height: 179px;
-	border-radius: 12px;
-	border: rgb(103, 0, 103) solid 1px;
-	outline: rgb(189, 189, 189) solid 5px;
-	padding: 25px;
-	transition: .3s ease-in;
-	opacity: .8;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	background: linear-gradient(180deg, plum 30%, rgb(250, 179, 179));
-}
-
-.gabi{
-	position: absolute;
-	top: 450px;
-	left: 450px;
-	width: 231px;
-	height: 179px;
-	border-radius: 12px;
-	border: rgb(103, 0, 103) solid 1px;
-	outline: rgb(189, 189, 189) solid 5px;
-	padding: 25px;
-	transition: .3s ease-in;
-	opacity: .8;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	background: linear-gradient(180deg, plum 30%, rgb(250, 179, 179));
 }
 
 /*css do footer*/
