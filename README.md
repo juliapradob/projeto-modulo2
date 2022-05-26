@@ -1,6 +1,6 @@
 ## 📍 Descrição do produto 💻
 
-- Responsividade à tempo!
+Responsividade à tempo!
 
 - Com o app de responsividade Frontenders você aumenta sua produtividade e otimiza seu tempo! A ferramenta foi desenvolvida com o objetivo de auxiliar programadores a desenvolverem sites responsivos de uma maneira mais fácil e ágil, evitando as inúmeras inspeções de mídia e obtendo maior controle na visualização de seus projetos, tudo isso simultaneamente ao desenvolvimento do código.
 
