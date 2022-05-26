@@ -30,7 +30,7 @@ Com três planos diferentes, o app Frontenders se adapta a você e às suas nece
 - [x] Usamos o framework Bootstrap.
 - [x] Usamos jQuery.ajax para a API do VIACEP e assim obtermos dados referente ao CEP dos usuários que preenchem o cadastro em nosso site.
 - [x] Repositório público utilizado com todos os integrantes, para trabalharmos em conjunto no projeto. 
-- [x] Organizamos em pastas os arquivos para que fique clara a compreensão do código e utilizamos boas práticas durante a construção do código. 
+- [x] Organização das pastas no modelo MVC e aplicação de boas práticas durante a construção do código. 
 
 ## 📍 Nosso repositório está no link a seguir:
 - https://github.com/juliapradob/projeto-modulo2.git
