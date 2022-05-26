@@ -208,6 +208,10 @@ img.img--perfil {
 	.headerBotao {
 		margin-top: 16px;
 	}
+
+	.container {
+		flex-wrap: wrap;
+	}
 }
 
 @media only screen and (max-width: 768px) {
@@ -226,6 +230,20 @@ img.img--perfil {
 	
 	.headerBotao {
 		margin-top: 16px;
+	}
+
+	.container {
+		margin: 0 2% 4%;
+	}
+
+	.container-perfil{
+		height: 280px;
+		width: 280px;
+		margin: 2% 2%;
+	}
+
+	img.img--perfil {
+		width: 70px;
 	}
 
 	.footer {
@@ -275,6 +293,23 @@ img.img--perfil {
 	
 	.headerBotao {
 		margin-top: 16px;
+	}
+
+
+	.container {
+		display: block;
+		margin: 0 auto;
+		justify-content: center;
+	}
+
+	.container-perfil{
+		height: 280px;
+		width: 280px;
+		margin: 4% auto 10%;
+	}
+
+	img.img--perfil {
+		width: 70px;
 	}
 
 	.footer {
