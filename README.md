@@ -6,7 +6,6 @@ Responsividade à tempo!
 
 ## 📍Conheça nossa solução 💻
 
-- Conheça o app
 Desenvolvimento em um ritmo que você nunca viu!
 
 - Aumento da Produtividade
