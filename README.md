@@ -24,12 +24,15 @@ Com três planos diferentes, o app Frontenders se adapta a você e às suas nece
 - [x] Servidor do Discord.
 - [x] Acompanhamento em Sprint.
 - [x] Organização do projeto pelo Figma.
+- [x] Gerenciamento de tempo por meio do método pomodoro.
+- [x] Delegação de tarefas.
 
 ## Tech 🖥️
-- [x] Usamos o framework Bootstrap.
-- [x] Usamos jQuery.ajax para a API do VIACEP e assim obtermos dados referente ao CEP dos usuários que preenchem o cadastro em nosso site.
-- [x] Repositório público utilizado com todos os integrantes, para trabalharmos em conjunto no projeto. 
-- [x] Organização das pastas no modelo MVC e aplicação de boas práticas durante a construção do código. 
+- [x] Para além do CSS, utilizamos o framework Bootstrap na construção de formulários do site.
+- [x] Foram criadas condicionais para verificação de dados nos formulários de cadastro, login e recuperação de login.
+- [x] Com o objetivo de obter dados de endereço apenas utilizando o CEP durante o cadastro, usamos jQuery e ajax para fazer requisições à API do ViaCEP.
+- [x] Criação de um repositório público, utilizado em conjunto entre os integrantes, com utilização de branches e git.
+- [x] Organização das pastas no modelo MVC e aplicação de boas práticas durante a construção do código, como tags semânticas e estruturas try/catch.
 
 ## 📍 Nosso repositório está no link a seguir:
 - https://github.com/juliapradob/projeto-modulo2.git
