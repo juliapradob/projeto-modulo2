@@ -21,14 +21,14 @@ Com três planos diferentes, o app Frontenders se adapta a você e às suas nece
 ## 📍Recursos utilizados na construção do projeto:
 
 ## Soft 💭
-- [x] Miro - Board
-- [x] Servidor do Discord
-- [x] Acompanhamento em Sprint
-- [x] Organização do projeto pelo Figma
+- [x] Miro - Board.
+- [x] Servidor do Discord.
+- [x] Acompanhamento em Sprint.
+- [x] Organização do projeto pelo Figma.
 
 ## Tech 🖥️
 - [x] Usamos o framework Bootstrap.
-- [x] Usamos também a API do VIACEP para obter dados referente ao CEP dos usuários que preenche o cadastro em nosso site.
+- [x] Usamos jQuery.ajax para a API do VIACEP e assim obtermos dados referente ao CEP dos usuários que preenchem o cadastro em nosso site.
 - [x] Repositório público utilizado com todos os integrantes, para trabalharmos em conjunto no projeto. 
 - [x] Organizamos em pastas os arquivos para que fique clara a compreensão do código e utilizamos boas práticas durante a construção do código. 
 
