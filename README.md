@@ -19,12 +19,19 @@ Um aplicativo intuitivo voltado tanto para iniciantes quanto aos programadores m
 - Se Adapta a Você
 Com três planos diferentes, o app Frontenders se adapta a você e às suas necessidades, visto que conta com funções diversas.
 
-## 📍Features do código desenvolvido no Front-End de apresentação da FOCUS CODE
+## 📍Recursos utilizados na construção do projeto:
 
-- [x] Framework CSS Boostrap5 aplicando estilo e responsividade em todas as páginas e seus elementos;
-- [x] API ViaCEP utilizado para obter dados referentes ao endereço utilizado pelo usuário ao efetuar o cadastro;
-- [x] Javascript utilizando classes e POO na construção do objeto;
-- [x] jQuery para manipulação de DOM e requisições HTTP.
+## 📌Soft
+- [x] Miro - Board
+- [x] Servidor do Discord
+- [x] Acompanhamento em Sprint
+- [x] Organização do projeto pelo Figma
+
+## 📌Tech
+- [x] Usamos o framework Bootstrap.
+- [x] Usamos também a API do VIACEP para obter dados referente ao CEP dos usuários que preenche o cadastro em nosso site.
+- [x] Repositório público utilizado com todos os integrantes, para trabalharmos em conjunto no projeto. 
+- [x] Organizamos em pastas os arquivos para que fique clara a compreensão do código e utilizamos boas práticas durante a construção do código. 
 
 ## 📍 Nosso repositório está no link a seguir:
 - https://github.com/juliapradob/projeto-modulo2.git
@@ -32,7 +39,7 @@ Com três planos diferentes, o app Frontenders se adapta a você e às suas nece
 ## 📍 Para acessar a página do produto é só clicar no link a seguir:
 - https://juliapradob.github.io/projeto-modulo2/
 
-## Autores
+## Autores 💡
 
 
 ## Finalidade
